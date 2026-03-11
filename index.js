@@ -18,7 +18,30 @@ let gayLabel;
 
 const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
 
+async function welcome() {
+    console.clear();
 
+    figlet(`Homo Meter`, (err, data) => {
+        console.log(gradient.pastel.multiline(data));
+    });
+
+    await sleep(1000);
+
+    const gayTitle = chalkAnimation.rainbow(`
+        Let's find out what's hiding inside the warmth of your underwear
+        Straightness is a myth. Your score is not.
+    `);
+
+    await sleep();
+
+    // gayTitle.stop();
+
+    console.log(`
+        ${chalk.bgRedBright(`Hey asshole`)}
+        Get your tiny little asshole out of here,
+        Your mf asshole!!!
+    `);
+}
 
 await welcome()
 
@@ -82,29 +105,4 @@ function Annoucement() {
     figlet(msg, (err, data) => {
         console.log(gradient.pastel.multiline(data))
     })
-}
-
-async function welcome() {
-    console.clear();
-
-    figlet(`Homo Meter`, (err, data) => {
-        console.log(gradient.pastel.multiline(data));
-    });
-
-    await sleep(1000);
-
-    const gayTitle = chalkAnimation.rainbow(`
-        Let's find out what's hiding inside the warmth of your underwear
-        Straightness is a myth. Your score is not.
-    `);
-
-    await sleep();
-
-    gayTitle.stop();
-
-    console.log(`
-        ${chalk.bgRedBright(`Hey asshole`)}
-        Get your tiny little asshole out of here,
-        Your mf asshole!!!
-    `);
 }

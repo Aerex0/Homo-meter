@@ -1,15 +1,15 @@
 {
   "name": "js-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A fun CLI quiz that calculates your gay percentage. Straightness is a myth.",
   "main": "index.js",
   "type": "module",
+  "author": "Aerex",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@inquirer/prompts": "^8.3.0",
     "chalk": "^5.6.2",
