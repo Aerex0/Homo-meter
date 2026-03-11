@@ -117,6 +117,10 @@ This project is licensed under the [MIT License](./LICENSE). Do what you want wi
 
 ---
 
+⭐ **If this quiz made you question yourself (or just crack a smile), drop a star. It won't affect your gay score. Probably.** 
+
+---
+
 <p align="center">
   Made for fun by <strong>Aerex</strong> 🏳️<br/>
   <em>No gays were harmed in the making of this tool.</em><br/>
