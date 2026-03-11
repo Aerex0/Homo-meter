@@ -74,7 +74,7 @@ That's it. Answer honestly. *(Or don't. The algorithm knows. Your Pinterest boar
 
 1. 🎨 **Welcome screen** — Pastel figlet ASCII art title, followed by a rainbow-animated intro that really sets the vibe.
 2. 🙋 **Name prompt** — Enter your name. Or "Anonymous". (*The closet has many aliases.*)
-3. ❓ **10 Questions** — Randomized order every run. Options shuffled per question. No patterns to exploit. (*The questions are random. The truth is not.*)
+3. ❓ **10 Questions** — Randomized order every run. Options shuffled per question. No patterns to exploit.(*The questions are random. The truth is not.*)
 4. 🔢 **Scoring** — Each answer secretly carries 0–3 points. Your total out of 30 is converted to a percentage. (*Science is complicated. Your skincare routine is not.*)
 5. 🌈 **The Verdict** — Your score and gay label are blasted at you in glorious pastel gradient ASCII art. (*Labels are complicated. Percentages are not.*)
 
