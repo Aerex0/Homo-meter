@@ -63,12 +63,14 @@ await askName()
 async function askQuestion() {
     const questions = [...data.questions].sort(() => Math.random() - 0.5);
     for (const item of questions) {
-        let options = []
-        for (const option of item.options) {
+        let options = [];
+        const shuffledOptions = [...item.options].sort(() => Math.random() - 0.5);
+        
+        for (const option of shuffledOptions) {
             options.push({
                 name: option.text,
                 value: option.points,
-            })
+            });
         }
 
         const answer = await rawlist({
