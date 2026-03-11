@@ -37,9 +37,9 @@ async function welcome() {
     gayTitle.stop();
 
     console.log(`
-        ${chalk.bgRedBright(`Hey asshole`)}
-        Get your tiny little asshole out of here,
-        Your mf asshole!!!
+${chalk.bgRedBright.white.bold(` WARNING: `)} ${chalk.yellow(`The algorithm can smell fear and lies.`)}
+${chalk.gray(`> Answer honestly. Trying to cheat the test only proves you have something to hide.`)}
+${chalk.gray(`> The closet has a glass door. We can all see you.`)}
     `);
 }
 
@@ -65,7 +65,7 @@ async function askQuestion() {
     for (const item of questions) {
         let options = [];
         const shuffledOptions = [...item.options].sort(() => Math.random() - 0.5);
-        
+
         for (const option of shuffledOptions) {
             options.push({
                 name: option.text,
