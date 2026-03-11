@@ -18,21 +18,7 @@ let gayLabel;
 
 const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
 
-async function welcome() {
-    const gayTitle = chalkAnimation.rainbow(
-        'I know you are a gay!! \n'
-    );
 
-    await sleep();
-
-    gayTitle.stop();
-
-    console.log(`
-        ${chalk.bgRedBright(`Hey asshole`)}
-        Get your tiny little asshole out of here,
-        Your mf asshole!!!
-    `);
-}
 
 await welcome()
 
@@ -87,12 +73,36 @@ async function handleEachQuestions(isLastQuestion, points) {
 }
 
 function Annoucement() {
-    ({ gayPercentage, gayLabel } = calculateGayScore(score));  // proper destructuring
-    console.clear()
+    ({ gayPercentage, gayLabel } = calculateGayScore(score));
 
     const msg = `Congrats ${userName}!\n You are a ${gayLabel}`
 
     figlet(msg, (err, data) => {
         console.log(gradient.pastel.multiline(data))
     })
+}
+
+async function welcome() {
+    console.clear();
+
+    figlet(`Homo Meter`, (err, data) => {
+        console.log(gradient.pastel.multiline(data));
+    });
+
+    await sleep(1000);
+
+    const gayTitle = chalkAnimation.rainbow(`
+        Let's find out what's hiding inside the warmth of your underwear
+        Straightness is a myth. Your score is not.
+    `);
+
+    await sleep();
+
+    gayTitle.stop();
+
+    console.log(`
+        ${chalk.bgRedBright(`Hey asshole`)}
+        Get your tiny little asshole out of here,
+        Your mf asshole!!!
+    `);
 }
