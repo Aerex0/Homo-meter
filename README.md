@@ -55,8 +55,8 @@ No doctors. No therapists. Just a Node.js process judging you in real time.
 ### Clone & Install
 
 ```bash
-git clone https://github.com/Aerex0/homo-meter.git
-cd homo-meter
+git clone https://github.com/Aerex0/Homo-meter.git
+cd Homo-meter
 npm install
 ```
 
@@ -83,7 +83,7 @@ That's it. Answer honestly. *(Or don't. The algorithm knows. Your Pinterest boar
 ## 📁 Project Structure
 
 ```
-homo-meter/
+Homo-meter/
 ├── index.js                  # Main CLI entry point
 ├── assets/
 │   ├── questions.json        # 10 questions, shuffled options, hidden points
