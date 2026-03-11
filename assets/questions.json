@@ -1,0 +1,116 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What's your go-to Saturday night?",
+      "options": [
+        { "label": "a", "text": "Sports bar with the boys", "points": 0 },
+        { "label": "b", "text": "Netflix and takeout", "points": 1 },
+        { "label": "c", "text": "Themed cocktail bar", "points": 2 },
+        { "label": "d", "text": "Dancing till 3am", "points": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Pick a color palette for your room:",
+      "options": [
+        { "label": "a", "text": "Beige and brown", "points": 0 },
+        { "label": "b", "text": "Grey and white minimalist", "points": 1 },
+        { "label": "c", "text": "Warm earth tones with plants", "points": 2 },
+        { "label": "d", "text": "Bold colors, gallery wall, accent lighting", "points": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How do you feel about musicals?",
+      "options": [
+        { "label": "a", "text": "Absolutely not", "points": 0 },
+        { "label": "b", "text": "Only the classics (Grease, etc.)", "points": 1 },
+        { "label": "c", "text": "I know most of the lyrics", "points": 2 },
+        { "label": "d", "text": "I have a ranked tier list", "points": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Pick a vacation:",
+      "options": [
+        { "label": "a", "text": "Camping / hiking trip", "points": 0 },
+        { "label": "b", "text": "Beach resort", "points": 1 },
+        { "label": "c", "text": "European city tour", "points": 2 },
+        { "label": "d", "text": "Mykonos or Fire Island", "points": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Your skincare routine:",
+      "options": [
+        { "label": "a", "text": "What routine? Just water", "points": 0 },
+        { "label": "b", "text": "Face wash occasionally", "points": 1 },
+        { "label": "c", "text": "Moisturizer + SPF daily", "points": 2 },
+        { "label": "d", "text": "6+ step routine, serums included", "points": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "How do you feel about Harry Styles?",
+      "options": [
+        { "label": "a", "text": "Not my thing", "points": 0 },
+        { "label": "b", "text": "He's alright", "points": 1 },
+        { "label": "c", "text": "He's iconic", "points": 2 },
+        { "label": "d", "text": "He's a vision and a muse", "points": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Pick a dog:",
+      "options": [
+        { "label": "a", "text": "German Shepherd", "points": 0 },
+        { "label": "b", "text": "Golden Retriever", "points": 1 },
+        { "label": "c", "text": "French Bulldog", "points": 2 },
+        { "label": "d", "text": "Miniature Dachshund or Pomeranian", "points": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Your friend group dynamic:",
+      "options": [
+        { "label": "a", "text": "Mostly guys, very low-drama", "points": 0 },
+        { "label": "b", "text": "Mixed, pretty chill", "points": 1 },
+        { "label": "c", "text": "Mixed, love a good gossip session", "points": 2 },
+        { "label": "d", "text": "Chaotic group chat, everyone's a character", "points": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What's your relationship with Taylor Swift?",
+      "options": [
+        { "label": "a", "text": "Don't care", "points": 0 },
+        { "label": "b", "text": "Casual listener", "points": 1 },
+        { "label": "c", "text": "Know the discography", "points": 2 },
+        { "label": "d", "text": "I have an era and I defend it", "points": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Pick a drink:",
+      "options": [
+        { "label": "a", "text": "Beer or whiskey neat", "points": 0 },
+        { "label": "b", "text": "Vodka soda", "points": 1 },
+        { "label": "c", "text": "Aperol spritz", "points": 2 },
+        { "label": "d", "text": "Espresso martini or a themed cocktail", "points": 3 }
+      ]
+    }
+  ],
+  "scoring": {
+    "max_score": 30,
+    "formula": "round((total_score / max_score) * 100)",
+    "ranges": [
+      { "min": 0,  "max": 5,  "percentage_min": 0,  "percentage_max": 10, "label": "Straight as a ruler" },
+      { "min": 6,  "max": 10, "percentage_min": 11, "percentage_max": 30, "label": "A little fruity" },
+      { "min": 11, "max": 15, "percentage_min": 31, "percentage_max": 55, "label": "Queer-coded" },
+      { "min": 16, "max": 22, "percentage_min": 56, "percentage_max": 80, "label": "Baby gay energy" },
+      { "min": 23, "max": 27, "percentage_min": 81, "percentage_max": 95, "label": "Very gay" },
+      { "min": 28, "max": 30, "percentage_min": 96, "percentage_max": 100, "label": "Certified gay icon" }
+    ]
+  }
+}
