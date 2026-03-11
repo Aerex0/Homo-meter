@@ -34,7 +34,7 @@ async function welcome() {
 
     await sleep();
 
-    // gayTitle.stop();
+    gayTitle.stop();
 
     console.log(`
         ${chalk.bgRedBright(`Hey asshole`)}
@@ -61,7 +61,8 @@ async function askName() {
 await askName()
 
 async function askQuestion() {
-    for (const item of data.questions) {
+    const questions = [...data.questions].sort(() => Math.random() - 0.5);
+    for (const item of questions) {
         let options = []
         for (const option of item.options) {
             options.push({
@@ -87,13 +88,10 @@ async function handleEachQuestions(isLastQuestion, points) {
     await sleep();
 
     score += points;
-    if (isLastQuestion) {
-        spinner.success({ text: 'Alright!! Let\'s see how gay you are' });
-        Annoucement();
-    } else {
-        spinner.success({ text: 'Gayness added, answer the next question' });
-    }
+    spinner.success({ text: 'Gayness added, answer the next question' });
 }
+
+Annoucement()
 
 function Annoucement() {
     ({ gayPercentage, gayLabel } = calculateGayScore(score));
