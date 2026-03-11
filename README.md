@@ -1,25 +1,47 @@
 # 🌈 Homo Meter
 
 > *Straightness is a myth. Your score is not.*
+> *You came here voluntarily. That's already data.*
 
 ![Node.js](https://img.shields.io/badge/Node.js-v18%2B-brightgreen?logo=node.js)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Made with love](https://img.shields.io/badge/made%20with-%F0%9F%8C%88%20gayness-ff69b4)
+![Made with love](https://img.shields.io/badge/made%20with-%F0%9F%8C%88%20pure%20gayness-ff69b4)
 ![CLI](https://img.shields.io/badge/type-CLI-purple)
+![Questions](https://img.shields.io/badge/questions-10%20hard%20hitting-orange)
+![Judgment](https://img.shields.io/badge/judgment-absolutely%20yes-red)
 
-A fun, unapologetically chaotic CLI quiz that calculates your **gay percentage** based on your totally scientific™ answers. Answer 10 hard-hitting questions and find out where you land on the spectrum.
+---
+
+You thought you were just opening a terminal. Little did you know, **the terminal was opening *you*.**
+
+**Homo Meter** is a chaotic, unapologetically unscientific CLI quiz that uses cutting-edge rainbow-gradient technology to calculate your **gay percentage™**. Answer 10 deeply personal questions about your Saturday nights, skincare routine, and relationship with Taylor Swift — and let the algorithm decide your fate.
+
+No doctors. No therapists. Just a Node.js process judging you in real time.
+
+*You can lie to yourself. You cannot lie to Node.js.*
+
+---
+
+> [!WARNING]
+> **Attention source code snoopers 👀**
+>
+> We see you. You opened `questions.json` thinking you'd reverse-engineer your way to a low score.
+>
+> Just be honest. You're already on a gay quiz. The damage is done. 🏳️‍🌈
+>
+> *The closet called. It wants its door back.*
 
 ---
 
 ## 🖼️ Preview
 
-### The gayeway to your Gay Score
+### The Gayeway to Your Score
 ![Welcome screen with pastel figlet title and rainbow animation](./images/welcome.png)
 
-### Let's calculate it
+### Let's Calculate It
 ![Interactive question prompt with shuffled choices](./images/question.png)
 
-### Here it is
+### Here It Is. We Said What We Said.
 ![Final result with pastel figlet announcing your gay score](./images/announcement.png)
 
 ---
@@ -33,7 +55,7 @@ A fun, unapologetically chaotic CLI quiz that calculates your **gay percentage**
 ### Clone & Install
 
 ```bash
-git clone https://github.com/aerex/homo-meter.git
+git clone https://github.com/Aerex0/homo-meter.git
 cd homo-meter
 npm install
 ```
@@ -44,28 +66,17 @@ npm install
 node .
 ```
 
-That's it. Answer the questions honestly. *(Or don't. We don't judge.)*
+That's it. Answer honestly. *(Or don't. The algorithm knows. Your Pinterest board already told us.)*
 
 ---
 
 ## 🧪 How It Works
 
-1. **Welcome screen** — A pastel ASCII art title greets you, followed by a rainbow-animated intro.
-2. **Name prompt** — Enter your name (or stay anonymous, coward).
-3. **10 Questions** — Each question has 4 options, shuffled so you can't just spam the last one to max your score.
-4. **Scoring** — Each answer carries hidden points (0–3). Your total is converted to a percentage out of 30.
-5. **Result** — Your **gay label** and **percentage** are revealed in glorious pastel figlet ASCII art.
-
-### Scoring Ranges
-
-| Score Range | Gay % | Label |
-|-------------|-------|-------|
-| 0 – 5 | 0 – 10% | Straight as a ruler |
-| 6 – 10 | 11 – 30% | A little fruity |
-| 11 – 15 | 31 – 55% | Queer-coded |
-| 16 – 22 | 56 – 80% | Baby gay energy |
-| 23 – 27 | 81 – 95% | Very gay |
-| 28 – 30 | 96 – 100% | Certified gay icon |
+1. 🎨 **Welcome screen** — Pastel figlet ASCII art title, followed by a rainbow-animated intro that really sets the vibe.
+2. 🙋 **Name prompt** — Enter your name. Or "Anonymous". (*The closet has many aliases.*)
+3. ❓ **10 Questions** — Randomized order every run. Options shuffled per question. No patterns to exploit. (*The questions are random. The truth is not.*)
+4. 🔢 **Scoring** — Each answer secretly carries 0–3 points. Your total out of 30 is converted to a percentage. (*Science is complicated. Your skincare routine is not.*)
+5. 🌈 **The Verdict** — Your score and gay label are blasted at you in glorious pastel gradient ASCII art. (*Labels are complicated. Percentages are not.*)
 
 ---
 
@@ -75,9 +86,9 @@ That's it. Answer the questions honestly. *(Or don't. We don't judge.)*
 homo-meter/
 ├── index.js                  # Main CLI entry point
 ├── assets/
-│   ├── questions.json        # All 10 questions with shuffled options & points
-│   ├── gayformula.js         # Score calculation logic
-│   └── gayrecipe.json        # Scoring ranges and labels
+│   ├── questions.json        # 10 questions, shuffled options, hidden points
+│   ├── gayformula.js         # The sacred scoring logic
+│   └── gayrecipe.json        # Score ranges and labels
 ├── images/
 │   ├── welcome.png
 │   ├── question.png
@@ -96,17 +107,19 @@ homo-meter/
 | [inquirer](https://github.com/SBoudrias/Inquirer.js) | Interactive CLI prompts |
 | [gradient-string](https://github.com/bokub/gradient-string) | Pastel gradient text |
 | [figlet](https://github.com/patorjk/figlet.js) | ASCII art text |
-| [nanospinner](https://github.com/usmanyunusov/nanospinner) | Elegant terminal spinners |
+| [nanospinner](https://github.com/usmanyounusov/nanospinner) | Elegant terminal spinners |
 
 ---
 
 ## 📜 License
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE). Do what you want with it.
 
 ---
 
 <p align="center">
   Made for fun by <strong>Aerex</strong> 🏳️<br/>
-  <em>No gays were harmed in the making of this tool.</em>
+  <em>No gays were harmed in the making of this tool.</em><br/>
+  <em>Several so called straights were mildly uncomfortable though.</em><br/>
+  <em>Denial is a river. This quiz is a mirror.</em>
 </p>
