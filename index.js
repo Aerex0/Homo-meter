@@ -1,15 +1,20 @@
 #!/usr/bin/env node
-
-// import data from './assets/questions.json' assert { type: 'json' };
-
 import chalk from "chalk";
 import inquirer from "inquirer";
+import { rawlist } from '@inquirer/prompts';
 import gradient from "gradient-string";
 import figlet from "figlet";
 import chalkAnimation from 'chalk-animation'
 import { createSpinner } from "nanospinner";
 
+import data from './assets/questions.json' with { type: 'json' };
+import calculateGayScore from './assets/gayformula.js';
+
+
 let userName;
+let score = 0;
+let gayPercentage;
+let gayLabel;
 
 const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
 
@@ -46,42 +51,48 @@ async function askName() {
 
 await askName()
 
-async function askQuestions() {
-    const answers = await inquirer.prompt({
-        name: 'question_1',
-        type: 'list',
-        message: 'What is your birthday? ',
-        choices: [
-            'a',
-            'b',
-            'c',
-            'd',
-        ],
-    });
-    return handleQuestions(answers.question_1 === 'c');
-}
+async function askQuestion() {
+    for (const item of data.questions) {
+        let options = []
+        for (const option of item.options) {
+            options.push({
+                name: option.text,
+                value: option.points,
+            })
+        }
 
-await askQuestions()
-
-async function handleQuestions(iscorrect) {
-    const spinner = createSpinner('checking answer...').start();
-    await sleep();
-
-    if (iscorrect) {
-        spinner.success({ text: 'Correct answer' });
-    } else {
-        spinner.error({ text: 'Incorrect answer' });
-        process.exit(1);
+        const answer = await rawlist({
+            message: item.question,
+            choices: options,
+        })
+        const points = answer;
+        const isLastQuestion = (item.id === 10);
+        await handleEachQuestions(isLastQuestion, points);
     }
 }
 
-function winner() {
+await askQuestion()
+
+async function handleEachQuestions(isLastQuestion, points) {
+    const spinner = createSpinner('Adding your gayness...').start();
+    await sleep();
+
+    score += points;
+    if (isLastQuestion) {
+        spinner.success({ text: 'Alright!! Let\'s see how gay you are' });
+        Annoucement();
+    } else {
+        spinner.success({ text: 'Gayness added, answer the next question' });
+    }
+}
+
+function Annoucement() {
+    ({ gayPercentage, gayLabel } = calculateGayScore(score));  // proper destructuring
     console.clear()
 
-    const msg = `Congrats ${userName}!\n You are gay`
+    const msg = `Congrats ${userName}!\n You are a ${gayLabel}`
+
     figlet(msg, (err, data) => {
         console.log(gradient.pastel.multiline(data))
     })
 }
-
-await winner()
