@@ -100,17 +100,5 @@
         { "label": "d", "text": "Espresso martini or a themed cocktail", "points": 3 }
       ]
     }
-  ],
-  "scoring": {
-    "max_score": 30,
-    "formula": "round((total_score / max_score) * 100)",
-    "ranges": [
-      { "min": 0,  "max": 5,  "percentage_min": 0,  "percentage_max": 10, "label": "Straight as a ruler" },
-      { "min": 6,  "max": 10, "percentage_min": 11, "percentage_max": 30, "label": "A little fruity" },
-      { "min": 11, "max": 15, "percentage_min": 31, "percentage_max": 55, "label": "Queer-coded" },
-      { "min": 16, "max": 22, "percentage_min": 56, "percentage_max": 80, "label": "Baby gay energy" },
-      { "min": 23, "max": 27, "percentage_min": 81, "percentage_max": 95, "label": "Very gay" },
-      { "min": 28, "max": 30, "percentage_min": 96, "percentage_max": 100, "label": "Certified gay icon" }
-    ]
-  }
+  ]
 }
