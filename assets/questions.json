@@ -4,100 +4,100 @@
       "id": 1,
       "question": "What's your go-to Saturday night?",
       "options": [
-        { "label": "a", "text": "Sports bar with the boys", "points": 0 },
-        { "label": "b", "text": "Netflix and takeout", "points": 1 },
-        { "label": "c", "text": "Themed cocktail bar", "points": 2 },
-        { "label": "d", "text": "Dancing till 3am", "points": 3 }
+        { "label": "a", "text": "Dancing till 3am", "points": 3 },
+        { "label": "b", "text": "Sports bar with the boys", "points": 0 },
+        { "label": "c", "text": "Netflix and takeout", "points": 1 },
+        { "label": "d", "text": "Themed cocktail bar", "points": 2 }
       ]
     },
     {
       "id": 2,
       "question": "Pick a color palette for your room:",
       "options": [
-        { "label": "a", "text": "Beige and brown", "points": 0 },
-        { "label": "b", "text": "Grey and white minimalist", "points": 1 },
-        { "label": "c", "text": "Warm earth tones with plants", "points": 2 },
-        { "label": "d", "text": "Bold colors, gallery wall, accent lighting", "points": 3 }
+        { "label": "a", "text": "Warm earth tones with plants", "points": 2 },
+        { "label": "b", "text": "Beige and brown", "points": 0 },
+        { "label": "c", "text": "Bold colors, gallery wall, accent lighting", "points": 3 },
+        { "label": "d", "text": "Grey and white minimalist", "points": 1 }
       ]
     },
     {
       "id": 3,
       "question": "How do you feel about musicals?",
       "options": [
-        { "label": "a", "text": "Absolutely not", "points": 0 },
-        { "label": "b", "text": "Only the classics (Grease, etc.)", "points": 1 },
-        { "label": "c", "text": "I know most of the lyrics", "points": 2 },
-        { "label": "d", "text": "I have a ranked tier list", "points": 3 }
+        { "label": "a", "text": "Only the classics (Grease, etc.)", "points": 1 },
+        { "label": "b", "text": "I have a ranked tier list", "points": 3 },
+        { "label": "c", "text": "Absolutely not", "points": 0 },
+        { "label": "d", "text": "I know most of the lyrics", "points": 2 }
       ]
     },
     {
       "id": 4,
       "question": "Pick a vacation:",
       "options": [
-        { "label": "a", "text": "Camping / hiking trip", "points": 0 },
-        { "label": "b", "text": "Beach resort", "points": 1 },
-        { "label": "c", "text": "European city tour", "points": 2 },
-        { "label": "d", "text": "Mykonos or Fire Island", "points": 3 }
+        { "label": "a", "text": "European city tour", "points": 2 },
+        { "label": "b", "text": "Mykonos or Fire Island", "points": 3 },
+        { "label": "c", "text": "Camping / hiking trip", "points": 0 },
+        { "label": "d", "text": "Beach resort", "points": 1 }
       ]
     },
     {
       "id": 5,
       "question": "Your skincare routine:",
       "options": [
-        { "label": "a", "text": "What routine? Just water", "points": 0 },
-        { "label": "b", "text": "Face wash occasionally", "points": 1 },
-        { "label": "c", "text": "Moisturizer + SPF daily", "points": 2 },
-        { "label": "d", "text": "6+ step routine, serums included", "points": 3 }
+        { "label": "a", "text": "Face wash occasionally", "points": 1 },
+        { "label": "b", "text": "What routine? Just water", "points": 0 },
+        { "label": "c", "text": "6+ step routine, serums included", "points": 3 },
+        { "label": "d", "text": "Moisturizer + SPF daily", "points": 2 }
       ]
     },
     {
       "id": 6,
       "question": "How do you feel about Harry Styles?",
       "options": [
-        { "label": "a", "text": "Not my thing", "points": 0 },
-        { "label": "b", "text": "He's alright", "points": 1 },
-        { "label": "c", "text": "He's iconic", "points": 2 },
-        { "label": "d", "text": "He's a vision and a muse", "points": 3 }
+        { "label": "a", "text": "He's a vision and a muse", "points": 3 },
+        { "label": "b", "text": "Not my thing", "points": 0 },
+        { "label": "c", "text": "He's alright", "points": 1 },
+        { "label": "d", "text": "He's iconic", "points": 2 }
       ]
     },
     {
       "id": 7,
       "question": "Pick a dog:",
       "options": [
-        { "label": "a", "text": "German Shepherd", "points": 0 },
-        { "label": "b", "text": "Golden Retriever", "points": 1 },
-        { "label": "c", "text": "French Bulldog", "points": 2 },
-        { "label": "d", "text": "Miniature Dachshund or Pomeranian", "points": 3 }
+        { "label": "a", "text": "French Bulldog", "points": 2 },
+        { "label": "b", "text": "German Shepherd", "points": 0 },
+        { "label": "c", "text": "Miniature Dachshund or Pomeranian", "points": 3 },
+        { "label": "d", "text": "Golden Retriever", "points": 1 }
       ]
     },
     {
       "id": 8,
       "question": "Your friend group dynamic:",
       "options": [
-        { "label": "a", "text": "Mostly guys, very low-drama", "points": 0 },
-        { "label": "b", "text": "Mixed, pretty chill", "points": 1 },
-        { "label": "c", "text": "Mixed, love a good gossip session", "points": 2 },
-        { "label": "d", "text": "Chaotic group chat, everyone's a character", "points": 3 }
+        { "label": "a", "text": "Mixed, pretty chill", "points": 1 },
+        { "label": "b", "text": "Chaotic group chat, everyone's a character", "points": 3 },
+        { "label": "c", "text": "Mostly guys, very low-drama", "points": 0 },
+        { "label": "d", "text": "Mixed, love a good gossip session", "points": 2 }
       ]
     },
     {
       "id": 9,
       "question": "What's your relationship with Taylor Swift?",
       "options": [
-        { "label": "a", "text": "Don't care", "points": 0 },
-        { "label": "b", "text": "Casual listener", "points": 1 },
-        { "label": "c", "text": "Know the discography", "points": 2 },
-        { "label": "d", "text": "I have an era and I defend it", "points": 3 }
+        { "label": "a", "text": "Know the discography", "points": 2 },
+        { "label": "b", "text": "Don't care", "points": 0 },
+        { "label": "c", "text": "I have an era and I defend it", "points": 3 },
+        { "label": "d", "text": "Casual listener", "points": 1 }
       ]
     },
     {
       "id": 10,
       "question": "Pick a drink:",
       "options": [
-        { "label": "a", "text": "Beer or whiskey neat", "points": 0 },
-        { "label": "b", "text": "Vodka soda", "points": 1 },
-        { "label": "c", "text": "Aperol spritz", "points": 2 },
-        { "label": "d", "text": "Espresso martini or a themed cocktail", "points": 3 }
+        { "label": "a", "text": "Vodka soda", "points": 1 },
+        { "label": "b", "text": "Beer or whiskey neat", "points": 0 },
+        { "label": "c", "text": "Espresso martini or a themed cocktail", "points": 3 },
+        { "label": "d", "text": "Aperol spritz", "points": 2 }
       ]
     }
   ]

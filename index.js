@@ -75,7 +75,9 @@ async function handleEachQuestions(isLastQuestion, points) {
 function Annoucement() {
     ({ gayPercentage, gayLabel } = calculateGayScore(score));
 
-    const msg = `Congrats ${userName}!\n You are a ${gayLabel}`
+    const msg =
+        `Congrats ${userName}! You are ${gayPercentage}% gay\n
+                        You are a ${gayLabel}`
 
     figlet(msg, (err, data) => {
         console.log(gradient.pastel.multiline(data))
